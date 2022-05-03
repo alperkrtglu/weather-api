@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/weather")
+@RequestMapping("/api")
 @RequiredArgsConstructor
 public class WeatherController {
 
     private final WeatherService weatherService;
 
-    @GetMapping("/getWeather")
-    public WeatherResponseDTO getWeather() {
+    @GetMapping("/weather")
+    public WeatherResponseDTO weather() {
         return WeatherMapper.INSTANCE.toDTO(weatherService.getWeather());
     }
 }
