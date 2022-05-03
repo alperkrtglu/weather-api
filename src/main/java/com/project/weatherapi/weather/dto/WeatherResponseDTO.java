@@ -1,4 +1,4 @@
-package com.project.weatherapi.weather.controller.dto;
+package com.project.weatherapi.weather.dto;
 
 import lombok.Data;
 

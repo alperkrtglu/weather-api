@@ -1,7 +1,7 @@
-package com.project.weatherapi.weather.controller.dto.mapper;
+package com.project.weatherapi.weather.dto.mapper;
 
-import com.project.weatherapi.weather.controller.dto.WeatherClientResponseDTO;
-import com.project.weatherapi.weather.controller.dto.WeatherResponseDTO;
+import com.project.weatherapi.weather.dto.WeatherClientResponseDTO;
+import com.project.weatherapi.weather.dto.WeatherResponseDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;

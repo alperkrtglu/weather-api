@@ -1,4 +1,4 @@
-package com.project.weatherapi.weather.controller.dto;
+package com.project.weatherapi.weather.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

@@ -1,6 +1,6 @@
 package com.project.weatherapi.weather.service;
 
-import com.project.weatherapi.weather.controller.dto.WeatherClientResponseDTO;
+import com.project.weatherapi.weather.dto.WeatherClientResponseDTO;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

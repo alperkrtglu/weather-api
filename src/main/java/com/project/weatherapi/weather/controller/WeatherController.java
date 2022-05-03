@@ -1,7 +1,7 @@
 package com.project.weatherapi.weather.controller;
 
-import com.project.weatherapi.weather.controller.dto.WeatherResponseDTO;
-import com.project.weatherapi.weather.controller.dto.mapper.WeatherMapper;
+import com.project.weatherapi.weather.dto.WeatherResponseDTO;
+import com.project.weatherapi.weather.dto.mapper.WeatherMapper;
 import com.project.weatherapi.weather.service.WeatherService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
